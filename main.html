@@ -1,16 +1,135 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>HTML Assignment 3</title>
+  <style>
+    /* Table styling */
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    td, th {
+      border: 1px solid black;
+      padding: 5px;
+      text-align: center;
+    }
+    /* Classes */
+    .middle {
+      margin: auto;
+    }
+    .center {
+      text-align: center;
+    }
+    .right {
+      text-align: right;
+    }
+    .green {
+      background-color: green;
+      color: white;
+    }
+    .blue {
+      background-color: blue;
+      color: white;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <!-- Page Heading -->
+  <h1>HTML Assignment #3</h1>
+
+  <!-- Table 1 -->
+  <table id="table-1" class="middle">
+    <tr>
+      <td id="t11">t11</td>
+      <td id="t12" class="center">t12</td>
+      <td id="t13" class="right">t13</td>
+    </tr>
+    <tr>
+      <td class="center">Row 2 Col 1</td>
+      <td class="center">Row 2 Col 2</td>
+      <td class="right">Row 2 Col 3</td>
+    </tr>
+    <tr>
+      <td>Row 3 Col 1</td>
+      <td class="center">Row 3 Col 2</td>
+      <td class="right">Row 3 Col 3</td>
+    </tr>
+  </table>
+
+  <!-- Table 2 -->
+  <table id="table-2" class="middle">
+    <tr>
+      <td id="t21" colspan="6">Header spanning 6 columns</td>
+    </tr>
+    <tr>
+      <td>2,1</td>
+      <td>2,2</td>
+      <td>2,3</td>
+      <td>2,4</td>
+      <td>2,5</td>
+      <td>2,6</td>
+    </tr>
+    <tr>
+      <td>3,1</td>
+      <td>3,2</td>
+      <td>3,3</td>
+      <td>3,4</td>
+      <td>3,5</td>
+      <td>3,6</td>
+    </tr>
+    <tr>
+      <td>4,1</td>
+      <td>4,2</td>
+      <td>4,3</td>
+      <td>4,4</td>
+      <td>4,5</td>
+      <td>4,6</td>
+    </tr>
+    <tr>
+      <td>5,1</td>
+      <td>5,2</td>
+      <td>5,3</td>
+      <td>5,4</td>
+      <td>5,5</td>
+      <td>5,6</td>
+    </tr>
+    <tr>
+      <td>6,1</td>
+      <td>6,2</td>
+      <td>6,3</td>
+      <td>6,4</td>
+      <td>6,5</td>
+      <td>6,6</td>
+    </tr>
+  </table>
+
+  <!-- Table 3 -->
+  <table id="table-3" class="middle">
+    <tr class="green">
+      <td>Header 1</td>
+      <td>Header 2</td>
+      <td>Header 3</td>
+    </tr>
+    <tr>
+      <td>Row 2 Col 1</td>
+      <td id="t-image">
+        <img src="https://picsum.photos/100" alt="Sample Image">
+      </td>
+      <td>Row 2 Col 3</td>
+    </tr>
+    <tr class="blue">
+      <td>Footer 1</td>
+      <td>Footer 2</td>
+      <td>Footer 3</td>
+    </tr>
+  </table>
 
 </body>
-
 </html>
+
